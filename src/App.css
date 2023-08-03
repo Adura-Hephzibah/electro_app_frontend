@@ -1,0 +1,62 @@
+
+.dashboardChildren {
+  margin-top: 66px;
+  padding: 50px 40px;
+  height: 91vh;
+ overflow-y: scroll
+}
+
+.noScrollBar {
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+}
+
+.noScrollBar::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
+
+.genericForm {
+  width: 50%;
+  margin: 6% auto 2%;
+}
+
+.loginForm {
+  width: 40%;
+  margin: 10% auto;
+}
+
+
+@media screen and (max-width: 1030px) {
+  .genericForm {
+    width: 70%;
+    margin: 10% auto 2%;
+  }
+
+  .loginForm {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .genericForm {
+    width: 90%;
+  margin: 10% auto 2%;
+  }
+
+  .loginForm {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .genericForm {
+    width: 100%;
+  }
+
+  .loginForm {
+    width: 100%;
+  }
+}
